@@ -1,0 +1,18 @@
+.Error {
+  align-items: center;
+  display: flex;
+  padding: 2em;
+}
+
+.Error-icon {
+  color: #ea4335;
+  fill: currentColor;
+  height: 2em; width: 2em;
+}
+
+.Error-message {
+  display: inline-block;
+  margin-left: .5em;
+  text-transform: uppercase;
+}
+

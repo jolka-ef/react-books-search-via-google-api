@@ -1,0 +1,50 @@
+.Form-input {
+  border-radius: var(--input-border-radius);
+  border: var(--input-border-width) var(--input-border-color) solid;
+  margin-bottom: 1em;
+  padding: .5em;
+  width: 100%;
+
+  &:focus {
+    box-shadow: var(--input-active-shadow);
+    color: #222;
+    outline: none;
+  }
+}
+
+.Form-label {
+  align-self: center; justify-self: end;
+  display: inline-block;
+  font-weight: 600;
+  padding: .25em 0;
+}
+
+.Form-label[for='lang'] {
+  grid-column: 3;
+  grid-row: 3;
+}
+
+.Form-label[for='isbn'] {
+  grid-column:1 ;
+  grid-row:3;
+}
+
+.Form-input[name='title'],
+.Form-input[name='author'] {
+  grid-column: 2/span 3;
+}
+
+.Form-input[name='lang'] {
+  grid-column: 4;
+}
+
+.Form-input[name='isbn'] {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+@media (min-width: 40em) {
+  .Form-input {
+    margin: 0;
+  }
+}

@@ -1,0 +1,52 @@
+.SearchResults {
+  border-collapse : collapse;
+  border-spacing: 0;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.SearchResults-cell {
+  display: block;
+}
+
+.SearchResults-cell:nth-child(1) {
+  padding-top: 1em;
+}
+
+.SearchResults-cell:nth-child(2) {
+  padding: 1em 0;
+  text-align: right;
+}
+
+.SearchResults-info {
+  color: var(--accent-color);
+  padding: 2em;
+  text-transform: uppercase;
+  text-align: center
+}
+
+.SearchResults-row {
+  border-bottom: 1px solid #e3e3e3;
+}
+
+@media (min-width: 40em) {
+  col:nth-child(1) {
+    width: 80%;
+  }
+
+  col:nth-child(2){
+    width: 20%;
+  }
+
+  .SearchResults {
+    table-layout: fixed;
+  }
+
+  .SearchResults-cell {
+    display: table-cell;
+  }
+
+  .SearchResults-cell:nth-child(1) {
+    vertical-align: top;
+  }
+}
