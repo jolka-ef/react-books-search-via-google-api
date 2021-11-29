@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/books-search-via-google-api/static/css/main.2ca9d70e.chunk.css",
+    "main.js": "/books-search-via-google-api/static/js/main.f63d3d42.chunk.js",
+    "main.js.map": "/books-search-via-google-api/static/js/main.f63d3d42.chunk.js.map",
+    "runtime~main.js": "/books-search-via-google-api/static/js/runtime~main.b58738a2.js",
+    "runtime~main.js.map": "/books-search-via-google-api/static/js/runtime~main.b58738a2.js.map",
+    "static/js/2.948f9318.chunk.js": "/books-search-via-google-api/static/js/2.948f9318.chunk.js",
+    "static/js/2.948f9318.chunk.js.map": "/books-search-via-google-api/static/js/2.948f9318.chunk.js.map",
+    "index.html": "/books-search-via-google-api/index.html",
+    "precache-manifest.d373fe288496316b6edf7ed22b110742.js": "/books-search-via-google-api/precache-manifest.d373fe288496316b6edf7ed22b110742.js",
+    "service-worker.js": "/books-search-via-google-api/service-worker.js",
+    "static/css/main.2ca9d70e.chunk.css.map": "/books-search-via-google-api/static/css/main.2ca9d70e.chunk.css.map",
+    "static/media/placeholder.svg": "/books-search-via-google-api/static/media/placeholder.ba8a1f27.svg"
+  }
+}
