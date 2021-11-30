@@ -8,7 +8,8 @@ export const buildQuery = (query) => {
     }
   }
   let result = searchQuery.join('+');
-  if(langRestrict)  {
+  
+  if(result && langRestrict)  {
     result += `&langRestrict=${langRestrict}`;
   }
 

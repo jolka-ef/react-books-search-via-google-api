@@ -20,7 +20,6 @@ export const useDataApi = (urlRequest) => {
                     }
                 }
             catch (error) {
-                console.log(error)
                 setIsError(true);
             }
             setIsLoading(false);
