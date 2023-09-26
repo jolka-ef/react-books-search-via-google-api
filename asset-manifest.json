@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-books-search-via-google-api/static/css/main.2ca9d70e.chunk.css",
+    "main.js": "/react-books-search-via-google-api/static/js/main.6ad1ce16.chunk.js",
+    "main.js.map": "/react-books-search-via-google-api/static/js/main.6ad1ce16.chunk.js.map",
+    "runtime~main.js": "/react-books-search-via-google-api/static/js/runtime~main.fa9dfe91.js",
+    "runtime~main.js.map": "/react-books-search-via-google-api/static/js/runtime~main.fa9dfe91.js.map",
+    "static/js/2.948f9318.chunk.js": "/react-books-search-via-google-api/static/js/2.948f9318.chunk.js",
+    "static/js/2.948f9318.chunk.js.map": "/react-books-search-via-google-api/static/js/2.948f9318.chunk.js.map",
+    "index.html": "/react-books-search-via-google-api/index.html",
+    "precache-manifest.e6962a892634668954a827a92bc44aa3.js": "/react-books-search-via-google-api/precache-manifest.e6962a892634668954a827a92bc44aa3.js",
+    "service-worker.js": "/react-books-search-via-google-api/service-worker.js",
+    "static/css/main.2ca9d70e.chunk.css.map": "/react-books-search-via-google-api/static/css/main.2ca9d70e.chunk.css.map",
+    "static/media/placeholder.svg": "/react-books-search-via-google-api/static/media/placeholder.ba8a1f27.svg"
+  }
+}
