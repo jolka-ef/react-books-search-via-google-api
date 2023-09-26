@@ -1,0 +1,27 @@
+.Button {
+  background-color: transparent;
+  border: 3px solid var(--accent-color-faded);
+  border-radius: var(--button-border-radius);
+  color: var(--accent-color);
+  display: block;
+  font-weight: 600;
+  line-height: 1.8;
+  margin-top: 1em;
+  padding: .2em .85em .25em;
+  text-transform: uppercase;
+  max-width: 10em;
+  width: 100%;
+
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 5px 3px ;
+    outline: none;
+  }
+}
+
+@media (min-width: 40em) {
+  .Button {
+    grid-column: 2;
+  }
+}

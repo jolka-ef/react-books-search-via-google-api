@@ -1,0 +1,36 @@
+:root {
+  --text-color: #444;
+  --accent-color: #3ac300;
+  --accent-color-faded: #3ac300eb;
+  --input-border-color: #ccc;
+  --input-border-radius : .5em;
+  --input-border-width: 1px;
+  --input-active-shadow: 0 0 1px 3px var(--accent-color);
+  --button-border-radius: 2em;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  color: var(--text-color);
+  font: 1em/1.5 system-ui;
+  -webkit-font-smoothing: antialiased;;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+select:-moz-focusring {
+  color: transparent;
+}
+
+.VisuallyHidden {
+  position: absolute;
+  clip: rect(0,0,0,0);
+}

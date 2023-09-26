@@ -1,0 +1,32 @@
+.SearchResults-bookInfo {
+  font-size: .875em;
+  font-style: italic;
+  margin-top: 1em;
+}
+.SearchResults-bookTitle {
+  display: inline-block;
+  font-weight: 700;
+}
+
+.SearchResults-bookLink {
+  color: var(--text-color);
+  text-decoration: none;
+  &:hover,
+  &:focus,
+  &:active {
+    color: var(--accent-color);
+  }
+}
+
+.SearchResults-bookImage {
+  height: 4em; width: 3em;
+  border-radius: .25em;
+  box-shadow: 3px 3px 6px -3px #000;
+  object-fit: cover;
+}
+
+.SearchResults-bookPublishDate {
+  font-size: .75em;
+  font-style: italic;
+  padding: .5em 0;
+}
